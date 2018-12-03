@@ -1,22 +1,30 @@
-# blog-nuxt
+# blog nuxt
 
-> My shining Nuxt.js project
+blog-server: [koa2-server](https://github.com/LWD8/blog-server)
+
+---
+![](https://github.com/LWD8/blog-nuxt/blob/master/static/images/1543821593(1).jpg)
+![](https://github.com/LWD8/blog-nuxt/blob/master/static/images/1543821582(1).jpg)
+![](https://github.com/LWD8/blog-nuxt/blob/master/static/images/1543821627(1).jpg)
+
+## 主要插件
+
+ - NUXT + Vuex + Vue-router + Axios
+
+ - marked + highlight.js
+
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-$ yarn install
+npm install
 
 # serve with hot reload at localhost:3000
-$ yarn run dev
+npm run dev
 
-# build for production and launch server
-$ yarn run build
-$ yarn start
+# build for production
+npm run build
+npm start
 
-# generate static project
-$ yarn run generate
 ```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
