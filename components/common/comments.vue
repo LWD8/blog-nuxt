@@ -491,7 +491,7 @@ export default {
         this.cancelCommentReply()
         this.clearCommentContent()
         this.$nextTick(() => {
-          scrollTo(document.querySelector(`#comment-item-${res.result.id}`), 200, { offset: 0 })
+          scrollTo(document.querySelector(`#comment-item-${res.data.id}`), 200, { offset: 0 })
         })
         localStorage.setItem('BLOG_USER', JSON.stringify(this.user))
       } else alert('操作失败')

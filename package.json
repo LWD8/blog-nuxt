@@ -23,7 +23,7 @@
     "kewler": "^1.0.8",
     "koa": "^2.5.2",
     "marked": "^0.5.1",
-    "nuxt": "^2.0.0",
+    "nuxt": "latest",
     "webpack": "^4.26.0"
   },
   "devDependencies": {
@@ -44,6 +44,8 @@
     "eslint-plugin-vue": "^4.0.0",
     "node-sass": "^4.10.0",
     "nodemon": "^1.11.0",
+    "nuxt": "^2.0.0",
+    "particles.js": "^2.0.0",
     "postcss-hexrgba": "^1.0.1",
     "postcss-nested": "^4.1.0",
     "postcss-responsive-type": "^1.0.0",
