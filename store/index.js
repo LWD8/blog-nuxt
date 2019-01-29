@@ -1,4 +1,4 @@
-const API_URL = process.env.NODE_ENV === 'production' ? 'http://120.79.167.165:3005' : 'http://127.0.0.1:3005'
+const API_URL = process.env.NODE_ENV === 'production' ? 'http://119.23.247.77:3005' : 'http://127.0.0.1:3005'
 
 export const actions = {
   nuxtServerInit(store, { req }) {

@@ -23,9 +23,7 @@ if (process.env.NODE_ENV === 'production') {
   const buildHtml = content => {
     return content + copyText()
   }
-  console.log('aaaaaaaaaaaaaaaaaaaaaaaaaa')
   document.addEventListener('copy', e => {
-    console.log(12312312313)
     if (!window.getSelection) return
     const content = window.getSelection().toString()
     e.clipboardData.setData('text/plain', buildText(content))
