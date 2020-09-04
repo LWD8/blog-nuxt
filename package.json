@@ -22,7 +22,7 @@
     "highlight.js": "^9.13.1",
     "kewler": "^1.0.8",
     "koa": "^2.5.2",
-    "marked": "^0.5.1",
+    "marked": "^1.1.1",
     "nuxt": "latest",
     "webpack": "^4.26.0"
   },
